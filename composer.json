@@ -1,0 +1,28 @@
+{
+    "name": "brunodebarros/polyfill-mysqli",
+    "type": "library",
+    "description": "Polyfill backporting MySQLi to PHP versions that only have MySQL",
+    "keywords": [
+        "polyfill",
+        "shim",
+        "compatibility",
+        "portable"
+    ],
+    "homepage": "https://github.com/BrunoDeBarros/polyfill-mysqli",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bruno De Barros",
+            "email": "bruno@terraduo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "ext-mysql": "*"
+    },
+    "autoload": {
+        "files": [
+            "bootstrap.php"
+        ]
+    }
+}
